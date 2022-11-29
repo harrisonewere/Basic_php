@@ -43,13 +43,13 @@ public function get_model()
 }
 }
 echo Benz:: MESSAGE;
-$benz = new Benz('Mercedes', 'Red', '2022');
+$Benz = new Car('Mercedes', 'Red', '2022');
 
 // echo $benz->print_color();
 // $benz->model = '2011';
 // echo $benz->get_model();
 
 // $benz = new Car('Mercedes Benz', 'Cream');
-// echo 'The name of my favourite car is:'.$benz->get_name() . 'and I love it to be in' . $benz->show_color(). ' color';
+// echo 'The name of my favorite car is:'.$benz->get_name() . 'and I love it to be in' . $benz->show_color(). ' color';
 
 ?>
